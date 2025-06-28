@@ -4,23 +4,22 @@
     font-weight: bold;
     font-style: normal;
 }
-
 body {
     margin: 0;
     padding: 0;
     /* font-family: 'Georgia', */
 }
 
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* Common styles */
 section {
     padding: 80px 40px;
 }
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .container {
     max-width: 1140px;
     margin: 0 auto;

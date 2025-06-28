@@ -17,6 +17,16 @@ body {
     padding: 0 15px;
 }
 
+/* Common styles */
+section {
+    padding: 80px 40px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* Navbar Container */
 .hamburger {
     display: none;
@@ -187,53 +197,6 @@ body {
     height: 280px;
     object-fit: cover;
 }
-
-/* 
-.team-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 18px;
-    background-color: #f9f9f9;
-    margin: 0 20px;
-    margin-top: 20px;
-    border: 1px solid #000;
-    border-radius: 12px;
-    position: relative;
-    z-index: 1;
-}
-
-.text-box {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.team-info h4 {
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #000;
-    gap: 15px;
-}
-
-.team-info p {
-    gap: 15px;
-    font-size: 13px;
-    color: #555;
-    margin-bottom: 10px;
-}
-
-.team-info .icon {
-    display: inline-block;
-    font-size: 20px;
-    background: #000;
-    color: #fff;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    line-height: 30px;
-} */
 
 .team-info {
     display: flex;
@@ -441,15 +404,6 @@ body {
     color: #666;
 }
 
-/* Common styles */
-section {
-    padding: 80px 40px;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 /* Responsive-navbar */
 /* Navbar */
